@@ -1,60 +1,98 @@
-
 <html>
 <body>
-
-
+ 
+ 
 <head>
-	<title>Parcel Sandbox</title>
-	<meta charset="UTF-8" />
+  <title>Parcel Sandbox</title>
+  <meta charset="UTF-8" />
+  <link rel="stylesheet" href="src/styles.css">
 </head>
 <h1>
-
-
-
- <a href='https://photos.google.com/share/AF1QipNH_Jdwxipchq3vBksAfou6kVEcwglcXE19h4OHIkWXSLebNGlIsj9aSeO1g_RnzQ?key=M0t6YTlDSDAyYTFPa1U2TWpiTThaY1FxWkVuQjdn&source=ctrlq.org'><img src='https://lh3.googleusercontent.com/3Hur7mx7XUAcvhIhWNtGtXT8JKFl2F8v6eNXP5pkmw08_VM0X818iz5Z4DFpPUrTaxLE86P4JCWXbndtoFcRcRR46VJgsaLnbr_jaHWFwHoZFn6VZTLAyMuBuwy3rfzkMi__W94nBQ=w2400' /></a> 
-
+ 
+<a href='https://photos.google.com/share/AF1QipNH_Jdwxipchq3vBksAfou6kVEcwglcXE19h4OHIkWXSLebNGlIsj9aSeO1g_RnzQ?key=M0t6YTlDSDAyYTFPa1U2TWpiTThaY1FxWkVuQjdn&source=ctrlq.org'><img src='https://lh3.googleusercontent.com/3Hur7mx7XUAcvhIhWNtGtXT8JKFl2F8v6eNXP5pkmw08_VM0X818iz5Z4DFpPUrTaxLE86P4JCWXbndtoFcRcRR46VJgsaLnbr_jaHWFwHoZFn6VZTLAyMuBuwy3rfzkMi__W94nBQ=w2400' /></a>
+ 
 <div class="topnav">
-<a href="https://2xgvn.csb.app/" target="_self"class="active ">Home </a>
-<a href="https://7gn80.csb.app/" target="_self">About Us </a>
-<a href="https://r8oe8.csb.app/ "target="_self">Payments</a>
-<a href="https://850vk.csb.app/" target="_self">Contacts</a>
-<a href="https://x37n1.csb.app/" target="_self">Help</a>
-<a href="https://fzjv8.csb.app/" target="_self">Q&A</a>
+<a href="https://2xgvn.codesandbox.io/" target="_self">Home </a>
+<a href="https://7gn80.codesandbox.io"  target="_self">About Us</a>
+<a href="https://r8oe8.codesandbox.io/" target="_self">Payments</a>
+<a href="https://850vk.codesandbox.io/" target="_self">Contacts</a>
+<a href="https://x37n1.codesandbox.io/" target="_self">Help</a>
+<a href="https://fzjv8.codesandbox.io/" target="_self"class="active ">Q&A</a>
 </div>
 </h1>
+<h2>
+ <style>
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+ 
+input[type=text], select, textarea {
+ width: 100%;
+ padding: 12px;
+ border: 1px solid #ccc;
+ border-radius: 4px;
+ box-sizing: border-box;
+ margin-top: 6px;
+ margin-bottom: 16px;
+ resize: vertical;
+}
+ 
+input[type=submit] {
+ background-color: #1c5299;
+ color: white;
+ padding: 12px 20px;
+ border: none;
+ border-radius: 4px;
+ cursor: pointer;
+}
+ 
+input[type=submit]:hover {
+ background-color: #1c5299;
+}
+ 
+.container {
+ border-radius: 5px;
+ background-color:rgb(255, 255, 255);
+ padding: 20px;
+}
+</style>
+</h2>
 <h3>
-Home                                                                                                                                                                                     
+                                                                                              
 
+
+ <div class="container">
+<form
+  action="https://formspree.io/xnqnvlgw"
+  method="POST"
+>
+  <label id="youremail">
+    Your email:<br>
+    <input type="text" name="_replyto" id= "youremail">
+  </label>
+  <br><br><label id="yourmessage">
+    Your message:<br>
+    <textarea name="message" id= "yourmessage"></textarea>
+  </label>
+
+  <!-- your other form fields go here -->
+
+  <input type="Submit" value="Submit"></input>
+</form>
+ 
+
+
+
+</div>
 </h3>
-<h4>
-<input type = "image"
-id = "homelefttextbox"
-value = ""
-img src="https://lh3.googleusercontent.com/_5Xp6dhUWms4SD2UmlonlqUyUHesQ5QPWFCsfcBHxkfDgPxWkbZcshEI0w0KBtAz2GARmvYyWE7eNcmonDESeeYZ8kU4qzIT-kBX9L_xkBqlxktuIgVnw3gj41j9f2BI1NOjgpeZKQ=w2400">
-
-<p>
-<br>
-<br>
-EH Law Group, PLLC exists to 
-provide quality legal 
-representation in immigration 
-matters to clients in the mid-
-south.  Founded in 2012, EH Law 
-Group, PLLC  has quickly become 
-one of the most trusted 
-immigration law offices in the 
-area.  Attorneys Eric Henton, Beth McNinch and Nate Celeski work closely with 
-clients in order to produce the best possible outcomes for their clients  
-
-</p>
-</h4>
+</div>
+ 
 </body>
-
+ 
 <body>
-	<div id="app"></div>
-
-	<script src="src/index.js">
-	</script>
+  <div id="app"></div>
+ 
+  <script src="src/index.js">
+  </script>
 </body>
-
+ 
 </html>
